@@ -1,0 +1,205 @@
+Exercises 1.1
+Q1:What is the difference between an Algorithm and a Program?
+
+    Ans: An algorithm is a conceptual idea, a program is a concrete instantiation of an algorithm.
+  
+Q2:True or False? A computational mode of thinking means that everything can be viewed as a math 
+   problem involving numbers and formulas.  
+   
+    Ans: True
+   
+Q3: True or False? Computer Science is the study of how to build efficient machines that run programs.
+
+    Ans: False
+    
+Q4:The two things every computer can do are:
+
+    Ans: Perform calculations, Remember the results
+    
+    
+Exercises 1.2
+ 
+Q1: Declarative knowledge refers to statements of fact.
+
+    Ans: True
+    
+Q2: Imperative knowledge refers to 'how to' methods.
+
+    Ans: True
+    
+Q3: A recipe for deducing the square root involves guessing a starting value for y. Without another recipe to be
+    told how to pick a starting number, the computer cannot generate one on its own.
+
+    Ans: True
+    
+    
+Exercises 1.3
+
+Q1: True or False? A stored program computer is designed to compute precisely one computation, such as a square root,
+    or the trajectory of a missile.
+
+    Ans: False
+    
+Q2: True or False? A fixed program computer is designed to run any computation, by interpreting a sequence of program
+    instructions that are read into it.
+
+    Ans: False
+    
+Q3: A program counter
+
+    Ans: points the computer to the next instruction to execute in the program.
+    
+Q4: What does it mean when we say that "the computer walks through the sequence executing some computation"?
+
+    Ans: The computer executes the instructions mostly in a linear sequence, except sometimes it jumps to a different 
+          place in the sequence.
+          
+Q5; True or False? In order to compute everything that is computable, every computer must be able to handle the sixteen
+    most primitive operations.
+
+    Ans: False
+
+
+Exercises 1.4
+Choose the term described by each of the following definitions.
+
+Q1: Determines whether a string is legal
+
+    Ans: Syntax
+    
+Q2: Determines whether a string has meaning
+
+    Ans: Static semantics
+    
+Q3: Assigns a meaning to a legal sentence
+
+    Ans: Semantics   
+    
+    
+Exercises 1.5
+
+For each of the following expressions, indicate the type of the expression. While you could simply type these expressions
+into your shell, we encourage you to answer them directly since this will help reinforce your understanding of basic 
+Python expressions.
+
+
+3.14   Float
+-34    Int
+True   Bool
+None   NoneType
+3.0    Float
+
+
+Exercises 1.6
+
+For decimal answers, give the full result, or four decimal places of accuracy (whichever is shortest).
+
+Q1: 6 + 12 -3
+
+    Ans: 15
+   
+Q2: 2 * 3.0
+
+    Ans= 6.0
+    
+Q3: - - 4
+
+    Ans=4
+    
+Q4; 10/3
+
+    Ans: 3.3333
+    
+Q5: 10.0/3.0
+
+    Ans: 3.3333
+
+Q6: (2 + 3) * 4
+
+    Ans:  20
+    
+Q7: 2 + 3 * 4
+
+    Ans: 14
+    
+Q8: 2**3 + 1
+
+    Ans= 9
+    
+Q9: 2.1 ** 2.0
+
+    Ans: 4.41
+    
+Q10: 2.2 * 3.0
+
+    Ans: 6.6000
+    
+
+Exercises 1.7
+Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly 
+  after the previous problem part(s).
+
+Q1: >>> a = 3
+    >>> a + 2.0 
+    
+      Ans: Float,  5.0
+      
+Q2:   >>> a = a + 1.0
+      >>> a 
+      
+      Ans: FLoat,  4.0
+      
+Q3:  >>> a = 3
+     >>> b
+     
+     Ans: NoneType,  Error
+
+
+Exercises 1.9
+Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly
+  after the previous problem part(s).
+
+Q1:
+  >>> a = 3
+  >>> a == 5.0
+  >>> a 
+  
+    Ans: int, 3
+    
+Q2: 
+  >>> b = 10
+  >>> c = b > 9
+  >>> c
+  
+    Ans: bool, True
+    
+
+Exercises 1.10
+For each of the following expressions, indicate the type of the expression and the value returned, or, if the 
+  evaluation would lead to an error, choose the type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) as the value returned.
+  
+Q1: 3 + 5.0
+      Ans: float, 8.0   
+Q2: 5/2
+      Ans: Float, 2.5
+Q3: 5/2 == 5/2.0
+      Ans: Bool, True
+Q4: 5/2.0
+      Ans: Float, 2.5
+Q5: round(2.6)
+      Ans: int, 3
+Q6: int(2.6)
+      Ans: int, 2
+Q7: 2.0 + 5.0
+      Ans: Float, 7.0
+Q8: 5*2 == 5.0 * 2.0
+      Ans: Bool, True
+
+
+    
+
+
+     
+
+
+
