@@ -1,0 +1,76 @@
+Code 1: 
+  Below are some short Python programs. For each program, answer the associated questions.
+
+Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.
+
+iteration = 0
+count = 0
+while iteration < 5:
+    # the variable 'letter' in the loop stands for every 
+    # character, including spaces and commas!
+    for letter in "hello, world": 
+        count += 1
+    print("Iteration " + str(iteration) + "; count is: " + str(count))
+    iteration += 1 
+
+
+A: What is the value of the variable count that is printed out (at the print statement) on iteration 0?
+                  Iteration 0; count is: 12
+
+B: What is the value of the variable count that is printed out (at the print statement) on iteration 1?
+                  Iteration 1; count is: 24
+   
+C: What is the value of the variable count that is printed out (at the print statement) on iteration 2?
+                  Iteration 2; count is: 36
+   
+D: What is the value of the variable count that is printed out (at the print statement) on iteration 3?
+                  Iteration 3; count is: 48
+        
+E: What is the value of the variable count that is printed out (at the print statement) on iteration 4?
+                  Iteration 4; count is: 60
+  
+Code 2: 
+iteration = 0
+while iteration < 5:
+    count = 0
+    for letter in "hello, world":
+        count += 1
+    print("Iteration " + str(iteration) + "; count is: " + str(count))
+    iteration += 1 
+
+A: What is the value of the variable count that is printed out (at the print statement) on iteration 0?
+                            Iteration 0; count is: 12
+B: What is the value of the variable count that is printed out (at the print statement) on iteration 1?
+                            Iteration 1; count is: 12
+C: What is the value of the variable count that is printed out (at the print statement) on iteration 2?
+                            Iteration 2; count is: 12
+D: What is the value of the variable count that is printed out (at the print statement) on iteration 3?
+                            Iteration 3; count is: 12
+E: What is the value of the variable count that is printed out (at the print statement) on iteration 4?
+                            Iteration 4; count is: 12
+ 
+Code 3:
+  
+iteration = 0
+while iteration < 5:
+    count = 0
+    for letter in "hello, world":
+        count += 1
+        if iteration % 2 == 0:
+            break
+    print("Iteration " + str(iteration) + "; count is: " + str(count))
+    iteration += 1 
+
+A: How many times will the print statement be executed?
+                      5
+   
+B: What is the largest value of the variable iteration that will be printed out (at the print statement)?
+                      4
+
+C: What is the largest value of the variable count that will be printed out (at the print statement)?
+                      12
+
+D: What is the smallest value of the variable count that will be printed out (at the print statement)?
+                      1
+ 
+
